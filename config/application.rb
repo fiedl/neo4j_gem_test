@@ -33,5 +33,9 @@ module Neo4jGemTest
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    
+    config.neo4j.session_options = { basic_auth: { username: 'neo4j', password: 'ievo8PhahQu7'} } 
+    config.neo4j.session_type = :server_db 
+    config.neo4j.session_path = ENV["GRAPHENEDB_URL"] || 'http://localhost:7474'
   end
 end

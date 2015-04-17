@@ -11,6 +11,9 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+# Ignore the neo4j database.
+/db/neo4j
+
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
