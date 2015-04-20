@@ -43,6 +43,11 @@ module HasNeoNode
     def sync_to_neo_node
       neo_node.sync_from(self)
     end
+    
+    def destroy
+      neo_node.destroy
+      super
+    end
   end
 end
 

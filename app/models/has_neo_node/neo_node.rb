@@ -18,8 +18,6 @@ module HasNeoNode
     end
     
     
-    
-    
     # Example:
     #   neo_node.sync_from(user)
     #

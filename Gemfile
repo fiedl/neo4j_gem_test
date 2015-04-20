@@ -44,3 +44,9 @@ group :development, :test do
 end
 
 gem 'neo4j', '~> 4.1.1'
+
+gem 'rspec-rails', '~> 3.0.0'
+gem 'fuubar'
+gem 'pry'
+gem 'colored'
+gem 'table-formatter'
